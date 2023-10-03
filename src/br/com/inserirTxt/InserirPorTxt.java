@@ -15,24 +15,14 @@ public class InserirPorTxt {
 		String nomeArquivo = escolhaArquivo;
 
 		try {
-			// Cria um objeto
 			File arquivo = new File(nomeArquivo);
-
-			// Cria um objeto FileReader para ler o arquivo
 			FileReader fileReader = new FileReader(arquivo);
-
-			// Cria um objeto BufferedReader para ler linhas
 			BufferedReader bufferedReader = new BufferedReader(fileReader);
 
 			String linha;
 
-			// Loop para ler linha
 			while ((linha = bufferedReader.readLine()) != null) {
-
-				// Divide a linha em palavras usando espaço como separador
 				String[] palavras = linha.split(" ");
-
-				// Loop para processar cada palavra como um inteiro
 				for (String palavra : palavras) {
 					try {
 						int numero = Integer.parseInt(palavra);

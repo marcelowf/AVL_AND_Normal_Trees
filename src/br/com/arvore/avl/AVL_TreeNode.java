@@ -4,13 +4,13 @@ public class AVL_TreeNode {
 	private int data;
 	private AVL_TreeNode esquerda;
 	private AVL_TreeNode direita;
-	private int altura; // Fator de equilíbrio
+	private int altura;
 
 	public AVL_TreeNode(int data) {
 		this.data = data;
 		this.esquerda = null;
 		this.direita = null;
-		this.altura = 1; // Começa com altura 1 para o novo nó.
+		this.altura = 1;
 	}
 
 	public int getData() {
@@ -28,11 +28,11 @@ public class AVL_TreeNode {
 	public AVL_TreeNode getDireita() {
 		return direita;
 	}
-	
+
 	public void setData(int data) {
 		this.data = data;
 	}
-	
+
 	public void setAltura(int altura) {
 		this.altura = altura;
 	}
