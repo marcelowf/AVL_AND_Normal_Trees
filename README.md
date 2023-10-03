@@ -29,7 +29,7 @@ As tabelas a seguir representam os resultados em porcentagem (% do uso de CPU) p
 
 Inserir um valor na árvore:                                                            
 
-╔════════════╦══════════╦═══════╗                                     
+╔════════╦══════════╦═══════╗                                     
 
 ║ Quantidade ║ Árvore Normal ║ Árvore AVL ║                                    
 
