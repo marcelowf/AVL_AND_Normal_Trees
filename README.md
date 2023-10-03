@@ -57,7 +57,7 @@ Inserir um valor na árvore:                          Remover um valor na árvor
 
 Buscar um valor na árvore:
 
-╔═══════════════╦════════════╗                                                                                 
+╔═══════════╦════════╗                                                                                 
 
 ║ Árvore Normal ║ Árvore AVL ║                                                                                 
 
