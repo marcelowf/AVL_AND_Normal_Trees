@@ -28,6 +28,7 @@ foi a grande facilidade de uso para fins acadêmicos.
 As tabelas a seguir representam os resultados em porcentagem (% do uso de CPU) para a realização das respectivas funções básicas implementadas:
 
 Inserir um valor na árvore:                          Remover um valor na árvore:
+
 ╔════════════╦═══════════════╦════════════╗          ╔═══════════════╦════════════╗
 ║ Quantidade ║ Árvore Normal ║ Árvore AVL ║          ║ Árvore Normal ║ Árvore AVL ║
 ╠════════════╬═══════════════╬════════════╣          ╠═══════════════╬════════════╣
@@ -43,6 +44,7 @@ Inserir um valor na árvore:                          Remover um valor na árvor
 ╚════════════╩═══════════════╩════════════╝          ╚═══════════════╩════════════╝
 
 Buscar um valor na árvore:
+
 ╔═══════════════╦════════════╗
 ║ Árvore Normal ║ Árvore AVL ║
 ╠═══════════════╬════════════╣
