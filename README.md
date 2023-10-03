@@ -30,29 +30,18 @@ As tabelas a seguir representam os resultados em porcentagem (% do uso de CPU) p
 Inserir um valor na árvore:                                                            
 
 ╔════════╦══════════╦═══════╗                                     
-
-║ Quantidade ║ Árvore Normal ║ Árvore AVL ║                                    
+║ Quantidade ║ Árvore Normal ║ Árvore AVL║                                    
 
 ╠════════════╬══════════╬═══════╣                                   
-
 ║ 100        ║ 0.520 %       ║ 0.610 %    ║                                    
-
 ╠════════════╬══════════╬═══════╣                                   
-
 ║ 500        ║ 0.640 %       ║ 0.750 %    ║                                     
-
 ╠════════════╬══════════╬═══════╣                                   
-
 ║ 1000       ║ 0.780 %       ║ 0.870 %    ║                                     
-
 ╠════════════╬══════════╬═══════╣                                   
-
 ║ 10000      ║ 1.100 %       ║ 2.300 %    ║                                     
-
 ╠════════════╬══════════╬═══════╣                                   
-
 ║ 20000      ║ 1.500 %       ║ 3.600 %    ║                                     
-
 ╚════════════╩══════════╩═══════╝                      
 
 Remover um valor na árvore:
