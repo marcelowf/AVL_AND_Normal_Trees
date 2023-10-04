@@ -129,37 +129,6 @@ public class AVL_BinaryTree {
 		}
 	}
 
-	public void balancearArvore() {
-		balancearArvoreRec(this.raiz);
-	}
-
-	private void balancearArvoreRec(AVL_TreeNode node) {
-		if (node == null) {
-			return;
-		}
-
-		balancearArvoreRec(node.getEsquerda());
-		balancearArvoreRec(node.getDireita());
-
-		int fatorEquilibrio = getFatorEquilibrio(node);
-
-		if (fatorEquilibrio > 1) {
-			if (getFatorEquilibrio(node.getEsquerda()) >= 0) {
-				this.raiz = rotacaoDireita(node);
-			} else {
-				node.setEsquerda(rotacaoEsquerda(node.getEsquerda()));
-				this.raiz = rotacaoDireita(node);
-			}
-		} else if (fatorEquilibrio < -1) {
-			if (getFatorEquilibrio(node.getDireita()) <= 0) {
-				this.raiz = rotacaoEsquerda(node);
-			} else {
-				node.setDireita(rotacaoDireita(node.getDireita()));
-				this.raiz = rotacaoEsquerda(node);
-			}
-		}
-	}
-
 	private AVL_TreeNode rotacaoDireita(AVL_TreeNode y) {
 		AVL_TreeNode x = y.getEsquerda();
 		AVL_TreeNode T2 = x.getDireita();
